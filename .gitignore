@@ -5,6 +5,9 @@
 # 数据库文件
 *.db
 
+# 日志文件
+/logs/
+
 # Python缓存
 __pycache__/
 *.pyc

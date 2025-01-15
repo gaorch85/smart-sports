@@ -172,3 +172,4 @@ sqlite3.OperationalError: no such column: exercise_time
 2025-01-15 21:43:50,799 - SmartExercise - INFO - 应用启动
 2025-01-15 21:51:28,191 - SmartExercise - INFO - 应用启动
 2025-01-15 22:00:54,049 - SmartExercise - INFO - 应用启动
+2025-01-15 22:30:50,541 - SmartExercise - INFO - 应用启动
