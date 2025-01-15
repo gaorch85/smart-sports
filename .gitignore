@@ -1,0 +1,14 @@
+# 开发工具和配置
+/tools/
+/config/dev_config.py
+
+# 数据库文件
+*.db
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# IDE配置
+.vscode/
+.idea/ 

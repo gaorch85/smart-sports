@@ -1,0 +1,174 @@
+2025-01-15 17:21:47,212 - SmartExercise - INFO - 应用启动
+2025-01-15 17:23:59,321 - SmartExercise - INFO - 应用启动
+2025-01-15 17:25:19,957 - SmartExercise - INFO - 应用启动
+2025-01-15 17:27:29,288 - SmartExercise - INFO - 应用启动
+2025-01-15 17:32:14,725 - SmartExercise - INFO - 应用启动
+2025-01-15 17:33:49,002 - SmartExercise - INFO - 应用启动
+2025-01-15 17:35:17,806 - SmartExercise - INFO - 应用启动
+2025-01-15 17:39:03,231 - SmartExercise - INFO - 应用启动
+2025-01-15 17:41:00,555 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 66, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 59, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 17:41:03,284 - SmartExercise - INFO - 应用启动
+2025-01-15 17:42:12,008 - SmartExercise - INFO - 应用启动
+2025-01-15 17:58:59,273 - SmartExercise - INFO - 应用启动
+2025-01-15 18:03:34,071 - SmartExercise - INFO - 应用启动
+2025-01-15 18:05:17,788 - SmartExercise - INFO - 应用启动
+2025-01-15 18:06:41,056 - SmartExercise - INFO - 应用启动
+2025-01-15 18:13:21,079 - SmartExercise - INFO - 应用启动
+2025-01-15 18:15:49,228 - SmartExercise - INFO - 应用启动
+2025-01-15 18:18:28,865 - SmartExercise - INFO - 应用启动
+2025-01-15 18:19:28,360 - SmartExercise - INFO - 应用启动
+2025-01-15 18:21:40,011 - SmartExercise - INFO - 应用启动
+2025-01-15 18:24:48,157 - SmartExercise - INFO - 应用启动
+2025-01-15 18:27:37,126 - SmartExercise - INFO - 应用启动
+2025-01-15 18:31:32,617 - SmartExercise - INFO - 应用启动
+2025-01-15 18:33:43,635 - SmartExercise - INFO - 应用启动
+2025-01-15 18:35:38,946 - SmartExercise - INFO - 应用启动
+2025-01-15 18:36:57,385 - SmartExercise - INFO - 应用启动
+2025-01-15 18:37:43,015 - SmartExercise - INFO - 应用启动
+2025-01-15 18:38:31,722 - SmartExercise - INFO - 应用启动
+2025-01-15 18:39:55,171 - SmartExercise - INFO - 应用启动
+2025-01-15 18:42:27,472 - SmartExercise - INFO - 应用启动
+2025-01-15 18:44:59,603 - SmartExercise - INFO - 应用启动
+2025-01-15 18:45:30,682 - SmartExercise - INFO - 应用启动
+2025-01-15 18:48:27,381 - SmartExercise - INFO - 应用启动
+2025-01-15 18:50:09,281 - SmartExercise - INFO - 应用启动
+2025-01-15 18:51:34,256 - SmartExercise - INFO - 应用启动
+2025-01-15 18:52:26,964 - SmartExercise - INFO - 应用启动
+2025-01-15 18:54:31,018 - SmartExercise - INFO - 应用启动
+2025-01-15 18:56:08,127 - SmartExercise - INFO - 应用启动
+2025-01-15 18:57:30,348 - SmartExercise - INFO - 应用启动
+2025-01-15 19:02:35,247 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 19:02:37,344 - SmartExercise - INFO - 应用启动
+2025-01-15 19:03:40,929 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 19:03:43,269 - SmartExercise - INFO - 应用启动
+2025-01-15 19:05:50,781 - SmartExercise - INFO - 应用启动
+2025-01-15 19:06:02,640 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 19:06:04,221 - SmartExercise - INFO - 应用启动
+2025-01-15 19:06:26,917 - SmartExercise - INFO - 应用启动
+2025-01-15 19:06:44,579 - SmartExercise - INFO - 应用启动
+2025-01-15 19:10:33,569 - SmartExercise - INFO - 应用启动
+2025-01-15 19:10:49,740 - SmartExercise - INFO - 应用启动
+2025-01-15 19:10:59,372 - SmartExercise - INFO - 应用启动
+2025-01-15 19:13:24,502 - SmartExercise - INFO - 应用启动
+2025-01-15 19:14:05,435 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 19:14:08,221 - SmartExercise - INFO - 应用启动
+2025-01-15 19:14:26,568 - SmartExercise - INFO - 应用启动
+2025-01-15 19:15:31,738 - SmartExercise - INFO - 应用启动
+2025-01-15 19:17:06,208 - SmartExercise - INFO - 应用启动
+2025-01-15 19:18:39,195 - SmartExercise - INFO - 应用启动
+2025-01-15 19:19:59,556 - SmartExercise - INFO - 应用启动
+2025-01-15 19:21:16,219 - SmartExercise - INFO - 应用启动
+2025-01-15 19:21:59,582 - SmartExercise - INFO - 应用启动
+2025-01-15 19:23:05,249 - SmartExercise - INFO - 应用启动
+2025-01-15 21:01:45,078 - SmartExercise - INFO - 应用启动
+2025-01-15 21:02:57,986 - SmartExercise - INFO - 应用启动
+2025-01-15 21:03:38,148 - SmartExercise - INFO - 应用启动
+2025-01-15 21:04:37,706 - SmartExercise - INFO - 应用启动
+2025-01-15 21:06:15,304 - SmartExercise - INFO - 应用启动
+2025-01-15 21:07:05,741 - SmartExercise - INFO - 应用启动
+2025-01-15 21:08:38,835 - SmartExercise - INFO - 应用启动
+2025-01-15 21:10:13,499 - SmartExercise - INFO - 应用启动
+2025-01-15 21:13:22,360 - SmartExercise - INFO - 应用启动
+2025-01-15 21:15:07,490 - SmartExercise - INFO - 应用启动
+2025-01-15 21:19:26,598 - SmartExercise - INFO - 应用启动
+2025-01-15 21:23:09,421 - SmartExercise - INFO - 应用启动
+2025-01-15 21:26:49,050 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1962, in __call__
+    def __call__(self, *args):
+    
+KeyboardInterrupt
+2025-01-15 21:26:51,560 - SmartExercise - INFO - 应用启动
+2025-01-15 21:28:26,631 - SmartExercise - INFO - 应用启动
+2025-01-15 21:29:06,366 - SmartExercise - ERROR - 未捕获的异常
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 77, in <module>
+    main()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 70, in main
+    app.window.mainloop()
+  File "D:\Anaconda3\Lib\site-packages\customtkinter\windows\ctk_tk.py", line 165, in mainloop
+    super().mainloop(*args, **kwargs)
+  File "D:\Anaconda3\Lib\tkinter\__init__.py", line 1504, in mainloop
+    self.tk.mainloop(n)
+KeyboardInterrupt
+2025-01-15 21:29:09,465 - SmartExercise - INFO - 应用启动
+2025-01-15 21:30:21,710 - SmartExercise - INFO - 应用启动
+2025-01-15 21:38:54,632 - SmartExercise - INFO - 应用启动
+2025-01-15 21:38:55,178 - SmartExercise - ERROR - 应用启动失败: no such column: exercise_time
+Traceback (most recent call last):
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\main.py", line 50, in main
+    app = MainWindow()
+          ^^^^^^^^^^^^
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\src\ui\main_window.py", line 21, in __init__
+    self.setup_ui()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\src\ui\main_window.py", line 36, in setup_ui
+    self.create_stats_bar()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\src\ui\main_window.py", line 225, in create_stats_bar
+    self.update_stats()
+  File "D:\000_Unclassified_Files\050_Desktop_Files\python\大作业\demo2-new\src\ui\main_window.py", line 285, in update_stats
+    cursor.execute("""
+sqlite3.OperationalError: no such column: exercise_time
+2025-01-15 21:39:05,387 - SmartExercise - INFO - 应用启动
+2025-01-15 21:41:19,797 - SmartExercise - INFO - 应用启动
+2025-01-15 21:42:38,773 - SmartExercise - INFO - 应用启动
+2025-01-15 21:43:50,799 - SmartExercise - INFO - 应用启动
+2025-01-15 21:51:28,191 - SmartExercise - INFO - 应用启动
+2025-01-15 22:00:54,049 - SmartExercise - INFO - 应用启动
