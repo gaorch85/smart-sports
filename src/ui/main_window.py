@@ -244,6 +244,9 @@ class MainWindow:
         # 更新统计信息
         self.update_stats()
         
+        # 更新所有运动卡片的统计信息
+        self.update_exercise_cards()
+        
     def show_history_frame(self):
         """显示历史记录界面"""
         # 隐藏主容器
@@ -303,3 +306,55 @@ class MainWindow:
         self.stats_labels["累计时长"].configure(text=f"{total_minutes}分钟")
         
         conn.close() 
+        
+    def update_exercise_cards(self):
+        """更新所有运动卡片的统计信息"""
+        # 获取所有运动卡片的统计标签
+        for widget in self.main_container.winfo_children():
+            if isinstance(widget, ctk.CTkFrame):  # 找到包含运动卡片的frame
+                for card in widget.winfo_children():
+                    if isinstance(card, ctk.CTkFrame):  # 找到运动卡片
+                        # 查找运动名称标签
+                        exercise_name = None
+                        for child in card.winfo_children():
+                            if isinstance(child, ctk.CTkFrame) and not child.winfo_children()[0].cget("text").startswith(("今日", "累计")):
+                                for label in child.winfo_children():
+                                    if isinstance(label, ctk.CTkLabel) and not label.cget("text") in ["🏃", "💪", "🔥", "⭕"]:
+                                        exercise_name = label.cget("text")
+                                        break
+                                if exercise_name:
+                                    break
+                        
+                        if exercise_name:
+                            # 更新该运动的统计信息
+                            try:
+                                conn = sqlite3.connect('exercise_data.db')
+                                cursor = conn.cursor()
+                                
+                                # 今日次数
+                                cursor.execute("""
+                                    SELECT SUM(count_or_duration) FROM exercise_records 
+                                    WHERE exercise_type = ? AND date(timestamp) = date('now')
+                                """, (exercise_name,))
+                                today_count = cursor.fetchone()[0] or 0
+                                
+                                # 累计次数
+                                cursor.execute("""
+                                    SELECT SUM(count_or_duration) FROM exercise_records 
+                                    WHERE exercise_type = ?
+                                """, (exercise_name,))
+                                total_count = cursor.fetchone()[0] or 0
+                                
+                                # 更新显示
+                                for child in card.winfo_children():
+                                    if isinstance(child, ctk.CTkFrame) and child.winfo_children()[0].cget("text").startswith(("今日:", "累计:")):
+                                        labels = child.winfo_children()
+                                        for label in labels:
+                                            if label.cget("text").startswith("今日:"):
+                                                label.configure(text=f"今日: {today_count}次")
+                                            elif label.cget("text").startswith("累计:"):
+                                                label.configure(text=f"累计: {total_count}次")
+                                
+                            finally:
+                                if 'conn' in locals():
+                                    conn.close() 
